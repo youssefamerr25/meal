@@ -38,9 +38,9 @@
 
 .header {
   padding: 40px 0;
-  background:linear-gradient(to right , red , orange);
+  background:linear-gradient(to right , rgb(246 107 107) , rgb(253 137 86));
   margin: 1rem 2rem;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@
   width: 100%;
   padding: 10px 40px 10px 12px;
   border: 2px solid #333;
-  border-radius: 8px;
+  border-radius: 15px;
   font-size: 16px;
   appearance: none;
   -webkit-appearance: none;
@@ -83,8 +83,9 @@
     no-repeat right 12px center;
   background-size: 16px;
   cursor: pointer;
-  outline: none;
-  border: none;
+  outline: 10px solid rgba(255, 255, 255,0.388);
+  border: none
+
 }
 .header select:hover {
   border-color: #555;
