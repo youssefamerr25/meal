@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Meal Explorer</title>
+  </head>
+  <body>
+     <section class="container">
+    <header class="header container">
+      <h1 style="word-spacing: 1px;"><i class="fa-solid fa-burger"></i> Meal Explorer</h1>
+      <p>
+        Discover delicious meals from around the world by selecting a category
+        below
+      </p>
+      <div class="select-container">
+        <select name="meal" id="meal-select">
+          <option value="">Select a category</option>
+        </select>
+      </div>
+      <div class="meal-count" id="meal-count">No category selected</div>
+    </header>
+    <main>
+        <div class="cards">
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
